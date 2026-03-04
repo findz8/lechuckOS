@@ -13,8 +13,8 @@ set -ouex pipefail
 dnf5 install -y tmux 
 
 # remove packages
-dnf remove -y Waydroid \
-              Sunwshine
+dnf remove -y waydroid \
+              Sunshine
 
 
 # Use a COPR Example:
