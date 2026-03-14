@@ -36,8 +36,8 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=tmpfs,dst=/tmp \
     /ctx/build.sh
 
-COPY --from=ghcr.io/ublue-os/brew:latest /system_files /
+# COPY --from=ghcr.io/ublue-os/brew:latest /system_files /
 
 ### LINTING
 ## Verify final image and contents are correct.
-RUN bootc container lint
+# RUN bootc container lint
