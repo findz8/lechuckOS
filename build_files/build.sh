@@ -13,8 +13,8 @@ set -ouex pipefail
 dnf5 install -y headsetcontrol
 
 # remove bazzite fings
-dnf5 remove -y waydroid/
-               Sunshine/ 
+dnf5 remove -y waydroid /
+               Sunshine /
                rom-properties
 
 # Use a COPR Example:
