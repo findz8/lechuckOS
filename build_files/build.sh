@@ -11,12 +11,6 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y headsetcontrol
-
-# remove bazzite fings
-dnf5 remove -y waydroid /
-               Sunshine /
-               rom-properties
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
