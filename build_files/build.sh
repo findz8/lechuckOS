@@ -20,7 +20,7 @@ dnf5 install -y headsetcontrol
 
 dnf5 -y remove waydroid \
                Sunshine \ 
-               rom-propeties
+               rom-properties
 
 #### Example for enabling a System Unit File
 
